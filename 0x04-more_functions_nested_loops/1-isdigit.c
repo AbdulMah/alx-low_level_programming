@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 int _isdigit(int x)
 {
 	if (x >= 48 && x <= 57)
@@ -10,4 +9,3 @@ int _isdigit(int x)
 
 	return (0);
 }
-
