@@ -12,6 +12,12 @@ void print_a_integer(char *separator, va_list args);
 void print_a_float(char *separator, va_list args);
 void print_a_char_ptr(char *separator, va_list args);
 
+void print_char(va_list arg);
+void print_int(va_list arg);
+void print_float(va_list arg);
+void print_string(va_list arg);
+void print_all(const char *const format, ...);
+
 /**
  * struct format_types - Struct format_types
  * @identifier: The conversion specifier
