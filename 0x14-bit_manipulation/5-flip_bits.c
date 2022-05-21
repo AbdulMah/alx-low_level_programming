@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "main.h"
-
 /**
   * flip_bits - ...
   * @n: ...
